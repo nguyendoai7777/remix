@@ -2,17 +2,17 @@ import { Link, Outlet } from '@remix-run/react';
 
 const navs = [
   {
-    path: '/product',
-    label: 'Product List',
+    path: '/about',
+    label: 'My About',
   },
   {
     label: 'Quan 12',
-    path: '/product/12',
+    path: '/about/12',
   },
 
   {
     label: 'Quan 24',
-    path: '/product/24',
+    path: '/about/24',
   }
 ];
 
